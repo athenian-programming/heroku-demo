@@ -7,7 +7,16 @@ http = Flask(__name__)
 
 @http.route("/")
 def hello():
-    return "Hello World!"
+    return """
+    <html>
+        <head>
+            <title>Hello World</title>
+        </head>
+        <body>
+            <h1>Hello World!</h1>
+        </body>
+    </html>
+    """
 
 
 if __name__ == "__main__":
