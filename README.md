@@ -15,7 +15,7 @@ pip install -r requirements.txt
 Create an app with:
 
 ```bash
-heroku create APP_NAME
+heroku create [APP_NAME]
 ```
 
 Deploy new code with:
